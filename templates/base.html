@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="renderer" content="webkit">
+    <meta name="description" content="Unicooo">
+    <meta http-equiv="Cache-Control" content="no-siteapp"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>{{ escape(handler.settings["Unicooo_title"]) }}</title>
+    {% block styles %}
+    <link rel="stylesheet" href="{{ static_url("front_page.css") }}" type="text/css">
+    {% endblock %}
+    <title>{{ escape(handler.settings["Unicooo_title"]) }}</title>
+  </head>
+  <body>
+  {% block head %}
+    <div id="banner">
+      <div id="uni_ban">
+        <p id="uni_logo">Unicorn</p>
+      </div>
+    </div> 
+  {% endblock %}
+   
+  </body>
